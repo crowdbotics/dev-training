@@ -1,6 +1,6 @@
 # Dev Training
 
-## Session 1 - Scaffold overview
+## [Session 1 - Scaffold overview](/session-1)
 
 Introduction to the [django-scaffold](https://github.com/crowdbotics/django-scaffold/) and [react-native-scaffold](https://github.com/crowdbotics/react-native-scaffold/) and exploration of the code.
 
