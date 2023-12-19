@@ -1,5 +1,9 @@
 # Dev Training
 
+## Getting started
+
+Before the first session make sure to [setup your developer environment](https://docs.crowdbotics.com/setting-up-your-developer-environment) correctly.
+
 ## [Session 1 - Scaffold overview](/session-1)
 
 Introduction to the [django-scaffold](https://github.com/crowdbotics/django-scaffold/) and [react-native-scaffold](https://github.com/crowdbotics/react-native-scaffold/) and exploration of the code.
@@ -14,7 +18,7 @@ Topics:
 - Guidelines/Code style guide.
 - Generating a demo app.
 
-## Session 2 - Modules overview
+## [Session 2 - Modules overview](/session-2)
 
 Introduction to the modules system, first look into creating modules and their structure.
 
