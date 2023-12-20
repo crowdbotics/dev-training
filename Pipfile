@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 cookiecutter = "*"
+django = "==3.2.23"
 
 [dev-packages]
 
