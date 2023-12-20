@@ -31,7 +31,7 @@ Topics:
 - What are good module candidates?
 - Refactoring existing source code to make it modular.
 
-## Session 3 - Modules tools (CLI)
+## [Session 3 - Modules tools (CLI)](/session-3)
 
 Deep dive on the modules tooling that is available as a command line interface. How to perform common operations such as installing/removing modules on an app.
 
