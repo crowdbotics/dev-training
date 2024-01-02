@@ -42,7 +42,7 @@ Topics:
 - How to extract already existing source code from a project into a module.
 - How to update an existing module with updated source code from a project.
 
-## Session 4 - Writing Javascript modules
+## [Session 4 - Writing Javascript modules](/session-4)
 
 More advanced topics around authoring Javascript modules, managing npm dependencies, and exporting your components.
 
