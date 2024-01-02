@@ -3,5 +3,8 @@
     "version": "1.0.0",
     "description": "",
     "private": true,
-    "main": "index.js"
-  }
+    "main": "index.js",
+    "x-dependencies": {
+        "react-native-share": "^10.0.2"
+    }
+}
