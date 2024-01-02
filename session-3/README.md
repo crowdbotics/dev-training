@@ -2,6 +2,9 @@
 
 ## Setting up your demo app
 
+Before starting:
+https://docs.crowdbotics.com/setting-up-your-developer-environment
+
 Before we start on today's session topics lets quickly setup the demo app so that you can run both backend and frontend apps locally.
 
 Start by creating an `.env` file and a secret key:
