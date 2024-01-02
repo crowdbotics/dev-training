@@ -1,9 +1,14 @@
 import React, { useState } from "react"
+import { useSelector, useDispatch } from "react-redux"
 import { View, Pressable, Text, StyleSheet } from "react-native"
 import Share from "react-native-share"
 
+import { slice } from "./store"
+
 function ShareMessage() {
+  const { count } = useSelector(state => state.Share)
   const [result, setResult] = useState("")
+  const dispatch = useDispatch()
 
   function getErrorString(error, defaultValue) {
     let e = defaultValue || "Something went wrong. Please try again"
@@ -28,6 +33,7 @@ function ShareMessage() {
     }
 
     try {
+      dispatch(slice.actions.increment())
       const ShareResponse = await Share.open(shareOptions)
       console.log(ShareResponse)
       setResult(JSON.stringify(ShareResponse, null, 2))
@@ -43,6 +49,7 @@ function ShareMessage() {
         <Text style={styles.text}>Share Message</Text>
       </Pressable>
       <Text style={styles.text}>{result}</Text>
+      <Text style={styles.text}>Number of presses: {count}</Text>
     </View>
   )
 }
@@ -60,5 +67,6 @@ const styles = StyleSheet.create({
 export default {
   title: "share",
   navigator: ShareMessage,
+  slice,
   hook: console.log("share module loaded")
 }
