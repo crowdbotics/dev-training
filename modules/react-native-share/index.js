@@ -59,5 +59,6 @@ const styles = StyleSheet.create({
 
 export default {
   title: "share",
-  navigator: ShareMessage
+  navigator: ShareMessage,
+  hook: console.log("share module loaded")
 }
