@@ -50,7 +50,7 @@ Topics:
 - package.json, pyproject.toml, setup.py - how to manage those files.
 - Adding libraries to your Javascript module.
 - Adding libraries that contain native code (autolinking).
-- How to export your React components.
+- How to export your React Native components.
 - Running code on App Load.
 - Data Fetching - Writing Redux code.
 - Screen modules vs component modules vs react-native modules.
