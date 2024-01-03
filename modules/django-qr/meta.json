@@ -1,0 +1,6 @@
+{
+  "title": "qr",
+  "description": "convert text to qr code",
+  "root": "/backend/modules",
+  "schema": {}
+}
