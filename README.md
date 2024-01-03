@@ -56,7 +56,7 @@ Topics:
 - Screen modules vs component modules vs react-native modules.
 - Module Options (options.js).
 
-## Session 5 - Writing Python modules
+## [Session 5 - Writing Python modules](/session-5)
 
 More advanced topics around authoring Python modules, managing pip dependencies, and handling migrations.
 
