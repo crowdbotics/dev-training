@@ -13,6 +13,6 @@ setup(
     name="cb_django_qr",
     version="0.1",
     packages=["qr"],
-    install_requires=[],
+    install_requires=["qrcode"],
     cmdclass={"build": BuildCommand},
 )
